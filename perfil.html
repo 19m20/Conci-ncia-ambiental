@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Perfil - Consciência Ambiental</title>
+  <script src="script.js" defer></script>
+  <img src="imagens/perfil.png" alt="imagemperfil" width="1300" height="1000">
+
+</head>
+<body>
+  <header>
+    <h1>👤 Meu Perfil</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="apoiador.html">Doação</a>
+      <a href="educacao.html">Educação</a>
+      <a href="perfil.html">Perfil</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cards">
+      <!-- Dados do perfil -->
+      <div class="card" id="perfilCard" style="display: none;">
+        <h3>Seus Dados</h3>
+        <p><strong>Nome:</strong> <span id="perfilNome"></span></p>
+        <p><strong>Email:</strong> <span id="perfilEmail"></span></p>
+        <p><strong>CPF:</strong> <span id="perfilCPF"></span></p>
+        <p><strong>Telefone:</strong> <span id="perfilTelefone"></span></p>
+        <p><strong>Data de Nascimento:</strong> <span id="perfilNascimento"></span></p>
+        <p><strong>Endereço:</strong> <span id="perfilEndereco"></span></p>
+        <p><strong>CEP:</strong> <span id="perfilCEP"></span></p>
+        <p><strong>Cidade:</strong> <span id="perfilCidade"></span></p>
+        <p><strong>Estado:</strong> <span id="perfilEstado"></span></p>
+        <p><strong>Área de Interesse:</strong> <span id="perfilInteresse"></span></p>
+        <button onclick="sairPerfil()">Sair</button>
+      </div>
+
+      <!-- Mensagem de não cadastrado -->
+      <div class="card" id="mensagemCard" style="display: none;">
+        <h3>Perfil não encontrado</h3>
+        <p>Você ainda não está cadastrado como voluntário.</p>
+        <a href="cadastro.html"><button>Fazer Cadastro</button></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Consciência Ambiental | Maiara</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", carregarPerfil);
+  </script>
+</body>
+</html>
