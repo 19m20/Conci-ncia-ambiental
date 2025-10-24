@@ -9,14 +9,11 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f5f5f5;
   padding: 20px;
 }
 
 /* Cabeçalho */
 header {
-  background-color: #2e7d32;
-  color: white;
   padding: 20px;
   text-align: center;
   border-radius: 8px;
@@ -27,7 +24,6 @@ nav {
 }
 
 nav a {
-  color: white;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -47,7 +43,6 @@ img {
 
 /* Seção de introdução */
 .intro {
-  background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -63,7 +58,6 @@ img {
 }
 
 .card, .projeto {
-  background-color: #ffffff;
   padding: 20px;
   font-size: 18px;
   width: 100%;
@@ -75,8 +69,6 @@ img {
 }
 
 button {
-  background-color: #2e7d32;
-  color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -86,14 +78,12 @@ button {
 }
 
 button:hover {
-  background-color: #1b5e20;
 }
 
 /* Rodapé */
 footer {
   text-align: center;
   margin-top: 40px;
-  color: #555;
 }
 
 /* Responsividade para celular */
@@ -118,3 +108,4 @@ footer {
     align-items: center;
   }
 }
+
