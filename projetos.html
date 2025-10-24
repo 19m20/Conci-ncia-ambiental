@@ -5,6 +5,101 @@
   <title>Projetos - Consciência Ambiental</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="script.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #007B5E;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .intro, .cards, #indicadores-impacto, .galeria {
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #007B5E;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex: 1 1 100%;
+      }
+
+      .galeria img {
+        width: 100%;
+        height: auto;
+      }
+
+      header, footer {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -53,49 +148,58 @@
         <button onclick="solicitarAtividade('Arboriza Santa Branca')">Participar</button>
       </div>
     </section>
+
     <section id="indicadores-impacto">
-  <h2>📊 Indicadores de Impacto e Resultados</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Indicador</th>
-        <th>Descrição</th>
-        <th>Exemplo de Resultado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>🌳 Árvores plantadas</td>
-        <td>Quantidade de mudas nativas plantadas</td>
-        <td>5.200 mudas</td>
-      </tr>
-      <tr>
-        <td>👥 Pessoas beneficiadas</td>
-        <td>Número de participantes em ações e oficinas</td>
-        <td>3.000 pessoas</td>
-      </tr>
-      <tr>
-        <td>🏫 Escolas atendidas</td>
-        <td>Instituições que receberam projetos educativos</td>
-        <td>22 escolas</td>
-      </tr>
-      <tr>
-        <td>🌊 Quilômetros de rios limpos</td>
-        <td>Extensão dos trechos limpos em campanhas ambientais</td>
-        <td>12 km</td>
-      </tr>
-      <tr>
-        <td>🙌 Voluntários engajados</td>
-        <td>Pessoas que atuaram diretamente nos projetos</td>
-        <td>58 voluntários</td>
-      </tr>
-      <tr>
-        <td>♻️ Toneladas de resíduos reciclados</td>
-        <td>Volume de materiais reaproveitados</td>
-        <td>4,5 toneladas</td>
-      </tr>
-    </tbody>
-  </table>
+      <h2>📊 Indicadores de Impacto e Resultados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Indicador</th>
+            <th>Descrição</th>
+            <th>Exemplo de Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🌳 Árvores plantadas</td>
+            <td>Quantidade de mudas nativas plantadas</td>
+            <td>5.200 mudas</td>
+          </tr>
+          <tr>
+            <td>👥 Pessoas beneficiadas</td>
+            <td>Número de participantes em ações e oficinas</td>
+            <td>3.000 pessoas</td>
+          </tr>
+          <tr>
+            <td>🏫 Escolas atendidas</td>
+            <td>Instituições que receberam projetos educativos</td>
+            <td>22 escolas</td>
+          </tr>
+          <tr>
+            <td>🌊 Quilômetros de rios limpos</td>
+            <td>Extensão dos trechos limpos em campanhas ambientais</td>
+            <td>12 km</td>
+          </tr>
+          <tr>
+            <td>🙌 Voluntários engajados</td>
+            <td>Pessoas que atuaram diretamente nos projetos</td>
+            <td>58 voluntários</td>
+          </tr>
+          <tr>
+            <td>♻️ Toneladas de resíduos reciclados</td>
+            <td>Volume de materiais reaproveitados</td>
+            <td>4,5 toneladas</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="galeria">
+      <h2>📷 Galeria de Projetos</h2>
+      <img src="imagens/projetoone.jpg" alt="Projeto 1">
+      <img src="imagens/projetotwo.jpg" alt="Projeto 2">
+      <img src="imagens/projetotree.jpg" alt="Projeto 3">
+    </section>
   </main>
 
   <footer>
@@ -103,7 +207,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
