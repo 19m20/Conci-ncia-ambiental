@@ -46,7 +46,6 @@ img {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Cartões de conteúdo */
@@ -58,26 +57,33 @@ img {
 }
 
 .card, .projeto {
-  padding: 20px;
-  font-size: 18px;
+  padding: 30px; /* aumentou o espaço interno */
+  font-size: 20px; /* aumentou o tamanho da fonte */
   width: 100%;
-  max-width: 400px;
+  max-width: 600px; /* aumentou a largura máxima */
   margin: 10px auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
   text-align: center;
 }
 
+/* Estilo dos inputs do formulário */
+form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px; /* aumentou o tamanho da letra */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botão */
 button {
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px;
   margin-top: 10px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
+  font-size: 18px; /* aumentou o tamanho da letra */
 }
 
 /* Rodapé */
@@ -93,8 +99,8 @@ footer {
   }
 
   .card, .projeto {
-    font-size: 16px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 20px;
     width: 90%;
   }
 
@@ -107,5 +113,14 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-}
 
+  form input {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
