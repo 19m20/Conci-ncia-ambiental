@@ -1,5 +1,5 @@
 # Conciência-ambiental
-Plataforma digital da ONG Consciência Ambiental para cadastro de voluntários, divulgação de projetos ecológicos e promoção da educação ambiental. Desenvolvida com HTML e JavaScript.
+Plataforma digital da ONG Consciência Ambiental para cadastro de voluntários, divulgação de projetos ecológicos e promoção da educação ambiental. Desenvolvida com HTML CSS e JavaScript.
 
 # 🌿 Consciência Ambiental
 
@@ -22,6 +22,7 @@ Plataforma digital da ONG Consciência Ambiental para cadastro de voluntários, 
 - **HTML5** — estrutura semântica
 - **CSS3** — estilização responsiva
 - **JavaScript** — interatividade e lógica de cadastro
+- **CSS básico** (utilizado apenas para organizar o layout e tornar o site mais legível)
 - **GitHub Pages** — hospedagem gratuita do site
 
 ---
@@ -30,4 +31,4 @@ Plataforma digital da ONG Consciência Ambiental para cadastro de voluntários, 
 
 Você pode visualizar o projeto online através do GitHub Pages clicando no link abaixo:
 
-🔗 [Clique aqui para visitar o site]()
+🔗 [Clique aqui para visitar o site](https://19m20.github.io/Conciencia_ambiental/)
