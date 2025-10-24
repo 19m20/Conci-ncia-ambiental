@@ -31,7 +31,7 @@
       padding: 20px;
     }
 
-    .intro, .cards, #indicadores-impacto, .galeria {
+    .intro, .cards, #indicadores-impacto {
       margin-bottom: 40px;
     }
 
@@ -63,21 +63,6 @@
       text-align: left;
     }
 
-    .galeria {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
-    }
-
-    .galeria img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    }
-
     footer {
       background-color: #007B5E;
       color: white;
@@ -88,11 +73,6 @@
     @media (max-width: 600px) {
       .card {
         flex: 1 1 100%;
-      }
-
-      .galeria img {
-        width: 100%;
-        height: auto;
       }
 
       header, footer {
@@ -114,7 +94,6 @@
     </nav>
   </header>
 
-  <!-- Imagem de destaque responsiva -->
   <img src="imagens/voluntario.png" alt="imagemvoluntario" style="width: 100%; height: auto;">
 
   <main>
@@ -194,11 +173,20 @@
       </table>
     </section>
 
-    <section class="galeria">
+    <section>
       <h2>📷 Galeria de Projetos</h2>
-      <img src="imagens/projetoone.jpg" alt="Projeto 1">
-      <img src="imagens/projetotwo.jpg" alt="Projeto 2">
-      <img src="imagens/projetotree.jpg" alt="Projeto 3">
+      <table>
+        <tr>
+          <td><img src="imagens/projetoone.png" alt="Projeto 1" width="300"></td>
+          <td><img src="imagens/projetotwo.png" alt="Projeto 2" width="300"></td>
+          <td><img src="imagens/projetotree.png" alt="Projeto 3" width="300"></td>
+        </tr>
+        <tr>
+          <td>Projeto 1</td>
+          <td>Projeto 2</td>
+          <td>Projeto 3</td>
+        </tr>
+      </table>
     </section>
   </main>
 
