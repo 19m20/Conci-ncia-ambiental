@@ -26,3 +26,7 @@ Plataforma digital da ONG Consciência Ambiental para:
 Você pode visualizar o projeto online através do GitHub Pages clicando no link abaixo:
 
 🔗 [Clique aqui para visitar o site](https://19m20.github.io/Conciencia_ambiental/)
+
+---
+## 📌 Aviso Acadêmico ##
+Este site foi desenvolvido como parte de uma atividade acadêmica da disciplina "Experiências Práticas I. Todas as informações exibidas, incluindo nomes, e-mails, telefones, imagens e dados institucionais, são fictícias e utilizadas exclusivamente para fins educacionais. Nenhum dado presente na plataforma representa informações reais ou está vinculado a uma organização oficial.
